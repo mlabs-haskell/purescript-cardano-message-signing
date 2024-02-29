@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "purescript-cardano-message-signing",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlabs-haskell/purescript-cardano-message-signing.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "spago test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mlabs-haskell/cardano-message-signing": "1.0.1",
+    "@mlabs-haskell/cardano-serialization-lib-gc": "^1.0.8"
+  },
+  "devDependencies": {
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  }
+}
