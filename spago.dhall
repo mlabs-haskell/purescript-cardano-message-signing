@@ -12,7 +12,7 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "bytearrays", "cardano-types", "effect", "newtype", "prelude" ]
+  [ "bytearrays", "cardano-types", "console", "effect", "newtype", "prelude" ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs" ]
+, sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
