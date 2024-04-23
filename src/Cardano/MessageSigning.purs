@@ -1,3 +1,4 @@
+-- | Implements CIP-8 message signing
 module Cardano.MessageSigning
   ( DataSignature
   , signData
@@ -48,7 +49,9 @@ foreign import bytesFromCoseKey :: COSEKey -> CborBytes
 
 -- | Sign a given byte string using a private key.
 -- |
--- | Implements message signing compatible with CIP-30 `signData` method
+-- | Implements message signing compatible with CIP-30 (CIP-8) `signData` method.
+-- |
+-- | Use `Cardano.Types.PublicKey.verify` for signature verification.
 signData :: PrivateKey -> Address -> RawBytes -> Effect DataSignature
 signData privatePaymentKey address (RawBytes payload) =
   { key: _, signature: _ } <$> key <*> signature
