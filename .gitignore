@@ -9,3 +9,5 @@
 /.psa*
 /.spago
 /.spago2nix
+./result
+./node_modules/

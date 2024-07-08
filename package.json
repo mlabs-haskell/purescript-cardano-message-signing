@@ -15,10 +15,12 @@
   "license": "MIT",
   "dependencies": {
     "@mlabs-haskell/cardano-message-signing": "1.0.1",
-    "@mlabs-haskell/cardano-serialization-lib-gc": "^1.0.8"
+    "@mlabs-haskell/json-bigint": "^2.0.0",
+    "@mlabs-haskell/cardano-serialization-lib-gc": "v12.0.0-alpha.31",
+    "@emurgo/cardano-serialization-lib-nodejs": "v12.0.0-alpha.31",
+    "@emurgo/cardano-serialization-lib-browser": "v12.0.0-alpha.31"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "prettier": {
     "arrowParens": "avoid",
     "trailingComma": "none"
