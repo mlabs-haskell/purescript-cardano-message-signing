@@ -15,10 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "@mlabs-haskell/cardano-message-signing": "1.0.1",
-    "@mlabs-haskell/cardano-serialization-lib-gc": "^1.0.8"
+    "@mlabs-haskell/cardano-cardano-data-lite": "^1.0.10"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "prettier": {
     "arrowParens": "avoid",
     "trailingComma": "none"
